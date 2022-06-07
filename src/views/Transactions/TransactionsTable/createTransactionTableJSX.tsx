@@ -106,14 +106,16 @@ function formatTransactionRows(
       value: (
         <>
           <TableLogo src={token?.logoURI} alt={`${token?.name}_logo`} />{" "}
-          {token?.name === "Wrapped Ether" ? "WETH" : token?.name}
+          {token?.name === "Wrapped Ether" ? "WETH" : token?.symbol}
         </>
       ),
     };
 
     const amount: ICell = {
       size: "xs",
-      value: ethers.utils.formatUnits(tx.amount, token.decimals),
+      value: Number(ethers.utils.formatUnits(tx.amount, token.decimals))
+        .toFixed(4)
+        .replace(/\.*0*$/, ""),
     };
 
     const txHash: ICell = {
