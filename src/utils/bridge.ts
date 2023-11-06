@@ -215,7 +215,7 @@ export async function sendAcrossDeposit(
     tokenAddress,
     amount,
     destinationChainId,
-    relayerFeePct,
+    ethers.BigNumber.from("0"),
     quoteTimestamp,
     message,
     maxCount,
