@@ -1,6 +1,6 @@
 import { CHAIN_IDs } from "@across-protocol/constants";
 import { utils as sdkUtils } from "@across-protocol/sdk";
-import { utils } from "ethers";
+import { ethers, utils } from "ethers";
 import { writeFileSync } from "fs";
 import * as prettier from "prettier";
 
@@ -164,6 +164,11 @@ const enabledRoutes = {
               "USDT",
               "WBTC",
             ],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT", "LSK"],
             swapTokens: [],
           },
         ],
@@ -630,6 +635,7 @@ const enabledRoutes = {
             chainId: CHAIN_IDs.MODE,
             tokens: [
               "WETH",
+              "ETH",
               { inputTokenSymbol: "USDC", outputTokenSymbol: "USDC.e" },
               "USDT",
             ],
@@ -640,6 +646,11 @@ const enabledRoutes = {
                 acrossOutputTokenSymbol: "USDC.e",
               },
             ],
+          },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
           },
         ],
       },
@@ -716,6 +727,11 @@ const enabledRoutes = {
           {
             chainId: CHAIN_IDs.MODE,
             tokens: ["WETH", "ETH", "USDC.e", "USDT", "WBTC"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
             swapTokens: [],
           },
         ],
@@ -854,6 +870,11 @@ const enabledRoutes = {
               },
             ],
           },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -932,6 +953,11 @@ const enabledRoutes = {
             tokens: ["WETH", "ETH", "USDC.e", "USDT", "WBTC"],
             swapTokens: [],
           },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -1002,6 +1028,57 @@ const enabledRoutes = {
           {
             chainId: CHAIN_IDs.LINEA,
             tokens: ["WETH", "ETH", "USDC.e", "WBTC"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+        ],
+      },
+      {
+        fromChain: CHAIN_IDs.LISK,
+        fromSpokeAddress: ethers.constants.AddressZero, // TODO: Update when deployed
+        toChains: [
+          {
+            chainId: CHAIN_IDs.MAINNET,
+            tokens: ["WETH", "ETH", "LSK", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.OPTIMISM,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.POLYGON,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.ARBITRUM,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.ZK_SYNC,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.BASE,
+            tokens: ["WETH", "ETH"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.LINEA,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
+          {
+            chainId: CHAIN_IDs.MODE,
+            tokens: ["WETH", "ETH", "USDT"],
             swapTokens: [],
           },
         ],
