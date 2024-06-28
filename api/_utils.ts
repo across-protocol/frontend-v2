@@ -39,6 +39,7 @@ import {
   BLOCK_TAG_LAG,
   defaultRelayerAddressOverride,
   defaultRelayerAddressOverridePerToken,
+  defaultRelayerAddressOverridePerChain,
   disabledL1Tokens,
   DOMAIN_CALLDATA_DELIMITER,
   graphAPIKey,
@@ -1439,6 +1440,7 @@ export function getDefaultRelayerAddress(
     return overrideForToken.relayer;
   } else {
     return (
+      defaultRelayerAddressOverridePerChain[destinationChainId] ||
       defaultRelayerAddressOverride ||
       sdk.constants.DEFAULT_SIMULATED_RELAYER_ADDRESS
     );
