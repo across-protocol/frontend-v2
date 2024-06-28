@@ -45,6 +45,7 @@ const enabledRoutes = {
         CHAIN_IDs.ARBITRUM,
         CHAIN_IDs.LINEA,
         CHAIN_IDs.MODE,
+        CHAIN_IDs.LISK,
       ],
     },
     swapAndBridgeAddresses: {
@@ -1039,7 +1040,7 @@ const enabledRoutes = {
       },
       {
         fromChain: CHAIN_IDs.LISK,
-        fromSpokeAddress: ethers.constants.AddressZero, // TODO: Update when deployed
+        fromSpokeAddress: "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
         toChains: [
           {
             chainId: CHAIN_IDs.MAINNET,
