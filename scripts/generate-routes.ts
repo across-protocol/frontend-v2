@@ -334,6 +334,11 @@ const enabledRoutes = {
               },
             ],
           },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -487,6 +492,11 @@ const enabledRoutes = {
                 acrossOutputTokenSymbol: "USDC.e",
               },
             ],
+          },
+          {
+            chainId: CHAIN_IDs.LISK,
+            tokens: ["WETH", "ETH", "USDT"],
+            swapTokens: [],
           },
         ],
       },
