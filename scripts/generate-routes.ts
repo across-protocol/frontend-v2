@@ -1346,7 +1346,7 @@ const enabledRoutes = {
         ],
       },
       {
-        fromChain: CHAIN_IDs.LISK,
+        fromChain: CHAIN_IDs.LISK_SEPOLIA,
         fromSpokeAddress: "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
         toChains: [
           {
