@@ -1159,6 +1159,11 @@ const enabledRoutes = {
             tokens: ["WETH", "USDC"],
             swapTokens: [],
           },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH", "ETH"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -1205,6 +1210,11 @@ const enabledRoutes = {
             tokens: ["WETH", "USDC"],
             swapTokens: [],
           },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -1249,6 +1259,11 @@ const enabledRoutes = {
             tokens: ["WETH", "USDC"],
             swapTokens: [],
           },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -1268,6 +1283,11 @@ const enabledRoutes = {
             tokens: ["WETH", "USDC"],
             swapTokens: [],
           },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH", "ETH"],
+            swapTokens: [],
+          },
         ],
       },
       {
@@ -1283,6 +1303,11 @@ const enabledRoutes = {
             chainId: CHAIN_IDs.BASE_SEPOLIA,
             swapTokens: [],
             tokens: ["WETH"],
+          },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH", "ETH"],
+            swapTokens: [],
           },
         ],
       },
@@ -1312,6 +1337,11 @@ const enabledRoutes = {
             chainId: CHAIN_IDs.BASE_SEPOLIA,
             swapTokens: [],
             tokens: ["WETH", "USDC"],
+          },
+          {
+            chainId: CHAIN_IDs.LISK_SEPOLIA,
+            tokens: ["WETH"],
+            swapTokens: [],
           },
         ],
       },
