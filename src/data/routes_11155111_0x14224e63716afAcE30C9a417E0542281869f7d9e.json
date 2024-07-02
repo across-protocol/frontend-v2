@@ -420,6 +420,105 @@
       "toTokenSymbol": "USDC",
       "isNative": false,
       "l1TokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 11155111,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "WETH",
+      "toTokenSymbol": "WETH",
+      "isNative": false,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 11155111,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "ETH",
+      "toTokenSymbol": "ETH",
+      "isNative": true,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 11155420,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x4200000000000000000000000000000000000006",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "WETH",
+      "toTokenSymbol": "WETH",
+      "isNative": false,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 11155420,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x4200000000000000000000000000000000000006",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "ETH",
+      "toTokenSymbol": "ETH",
+      "isNative": true,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 421614,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x980B62Da83eFf3D4576C647993b0c1D7faf17c73",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "WETH",
+      "toTokenSymbol": "WETH",
+      "isNative": false,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 421614,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x980B62Da83eFf3D4576C647993b0c1D7faf17c73",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "ETH",
+      "toTokenSymbol": "ETH",
+      "isNative": true,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 84532,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x4200000000000000000000000000000000000006",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "WETH",
+      "toTokenSymbol": "WETH",
+      "isNative": false,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 84532,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x4200000000000000000000000000000000000006",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "ETH",
+      "toTokenSymbol": "ETH",
+      "isNative": true,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    {
+      "fromChain": 1135,
+      "toChain": 80002,
+      "fromTokenAddress": "0x4200000000000000000000000000000000000006",
+      "toTokenAddress": "0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+      "fromSpokeAddress": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+      "fromTokenSymbol": "WETH",
+      "toTokenSymbol": "WETH",
+      "isNative": false,
+      "l1TokenAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
     }
   ],
   "swapRoutes": [

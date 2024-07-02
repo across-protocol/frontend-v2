@@ -1315,6 +1315,37 @@ const enabledRoutes = {
           },
         ],
       },
+      {
+        fromChain: CHAIN_IDs.LISK,
+        fromSpokeAddress: "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+        toChains: [
+          {
+            chainId: CHAIN_IDs.SEPOLIA,
+            swapTokens: [],
+            tokens: ["WETH", "ETH"],
+          },
+          {
+            chainId: CHAIN_IDs.OPTIMISM_SEPOLIA,
+            swapTokens: [],
+            tokens: ["WETH", "ETH"],
+          },
+          {
+            chainId: CHAIN_IDs.ARBITRUM_SEPOLIA,
+            swapTokens: [],
+            tokens: ["WETH", "ETH"],
+          },
+          {
+            chainId: CHAIN_IDs.BASE_SEPOLIA,
+            swapTokens: [],
+            tokens: ["WETH", "ETH"],
+          },
+          {
+            chainId: CHAIN_IDs.POLYGON_AMOY,
+            swapTokens: [],
+            tokens: ["WETH"],
+          },
+        ],
+      },
     ],
   },
 } as const;

@@ -695,6 +695,8 @@ export const getSpokePoolAddress = (chainId: number): string => {
   switch (chainId) {
     case CHAIN_IDs.LISK:
       return "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4";
+    case CHAIN_IDs.LISK_SEPOLIA:
+      return "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4";
     default:
       return sdk.utils.getDeployedAddress("SpokePool", chainId);
   }
