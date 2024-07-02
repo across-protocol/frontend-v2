@@ -515,7 +515,7 @@ export const getRelayerFeeCalculator = (
     destinationChainId,
     getProvider(destinationChainId),
     undefined,
-    overrides.spokePoolAddress,
+    overrides.spokePoolAddress || getSpokePoolAddress(destinationChainId),
     overrides.relayerAddress,
     REACT_APP_COINGECKO_PRO_API_KEY,
     getLogger(),
@@ -693,10 +693,6 @@ export const getSpokePool = (_chainId: number): SpokePool => {
 
 export const getSpokePoolAddress = (chainId: number): string => {
   switch (chainId) {
-    case CHAIN_IDs.LISK:
-      return "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4";
-    case CHAIN_IDs.LISK_SEPOLIA:
-      return "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4";
     default:
       return sdk.utils.getDeployedAddress("SpokePool", chainId);
   }
